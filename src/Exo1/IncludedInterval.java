@@ -1,3 +1,5 @@
+package Exo1;
+
 public class IncludedInterval implements Condition{
     private int inf;
     private int sup;

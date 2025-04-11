@@ -1,3 +1,5 @@
+package Exo1;
+
 public class SuperiorTo implements Condition{
     private int ref;
 

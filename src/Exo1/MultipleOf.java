@@ -1,3 +1,5 @@
+package Exo1;
+
 public class MultipleOf implements Condition{
     private int n;
 
