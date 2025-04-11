@@ -4,9 +4,10 @@ public class Main2 {
     public static void main(String[] args){
 
         Dog dog1 = new Dog(10, "Dog1", "Master1");
+        /*
         System.out.println(dog1.toString());
         System.out.println("\n");
-
+        */
         Animal animal = new Animal(20, "Duck");
 
         Dog dog2 = new Dog(15, "Dog2", "Master2");
@@ -20,10 +21,18 @@ public class Main2 {
         animals[2] = dog2;
         animals[3] = dog3;
         animals[4] = cat1;
-
+        /*
         int j;
         for (j = 0; j < animals.length; j++){
             System.out.println(animals[j].toString());
         }
+        */
+        Zoo zoo = new Zoo();
+        zoo.add(dog1);
+        zoo.add(animal);
+        zoo.add(dog2);
+        zoo.add(dog3);
+        zoo.add(cat1);
+        System.out.println(zoo);
     }
 }

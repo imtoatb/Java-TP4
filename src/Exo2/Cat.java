@@ -18,6 +18,6 @@ public class Cat extends Animal{
 
     @Override
     public String toString(){
-        return "Cat{ race = " + race + "weight = " + weight + ", name = " + name  + "}";
+        return "Cat{ race = " + race + ", weight = " + weight + ", name = " + name  + "} \n";
     }
 }
